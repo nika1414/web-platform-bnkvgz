@@ -1,0 +1,47 @@
+body {
+  background: #cbffff;
+}
+
+#mainDiv {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#boxDiv {
+  display: flex;
+  margin: 0 auto;
+  background-color: transparent;
+  border: solid rgb(255, 251, 39) 4px;
+  height: 400px;
+  width: 600px;
+  border-radius: 5px;
+}
+
+#currencyDiv {
+  text-align: left;
+  margin: 15px;
+  background-color: transparent;
+  border: solid #ffffe5 4px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#amountDiv {
+  margin: 15px;
+  background-color: transparent;
+  border: solid rgb(255, 251, 39) 4px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#currency {
+  text-align: center;
+  border: none;
+  background-color: rgb(255, 251, 39);
+  width: 250px;
+  height: 50px;
+}
